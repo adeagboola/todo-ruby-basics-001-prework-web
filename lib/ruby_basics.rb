@@ -1,8 +1,6 @@
-def division(num1 = "42", num2 = "7")
-  puts "42 / 7"
-  6
+def division(num1, num2)
+  num1 / num2
 end
-division
 
 def assign_variable(name = "Bob")
   "#{name}"
@@ -13,8 +11,8 @@ def argue(phrase)
   phrase
 end
 
-def greeting(greeting, name)
-  puts "#{greeting} #{name}"
+def greeting(arg1, arg2)
+  
 end
 
 def return_a_value
